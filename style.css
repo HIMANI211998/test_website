@@ -1,0 +1,79 @@
+/* default styling */
+html
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* descendent selectors */
+header h1{
+    font-weight: 400;
+}
+/* <1rem= default font size of your website> */
+header
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+}
+nav
+{
+    width: 20rem;
+    position: relative;
+    top: 1rem;
+    right:3rem;
+}
+ul
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+li
+{
+    list-style: none;
+}
+/* Viewport unit should be used for making your sites responsive because it adjusts itself according to screen size 
+90 vw means 90 percent of its view port ie screen*/
+.showcase
+{
+    margin:1rem;
+    width:95vw;
+}
+
+article
+{
+  display: flex;
+  
+  margin: 1.5rem;
+  
+}
+.content
+{
+    
+    margin-right:2rem;
+    padding:1rem;
+    text-align: center;
+}
+/* Display and justify content aligns horizontally */
+footer
+{
+    text-align: center;
+    font-weight: 500;
+    background-color:black;
+    /* color changes font color */
+    color:white;
+    display: flex;
+    justify-content: center;
+    /* Align items arranges vertically */
+    align-items: center;
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+a:hover
+{
+    color: tomato;
+    font-size: large;
+}
